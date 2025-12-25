@@ -8,5 +8,9 @@ int main() {
 
     printf("%c%c%c%c", c1, lineFeed, c2, lineFeed); // 제어 문자도 %c로 출력할 수 있음
 
+    char lineFeed = '\n'; // 제어 문자 \n 할당
+
+    printf("%d 0x%x\n", lineFeed, lineFeed);
+
     return 0;
 }
